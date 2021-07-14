@@ -1,0 +1,32 @@
+/*remove all basic style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(140deg, lightblue, lightgreen);
+    color: black;
+    font-family: "Inconsolata", sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 140%;
+}
+
+header, form {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5%;
+    font-size: 100%;
+    border: none;
+    background: white;
+    /* border-radius: 2px; */
+}
