@@ -22,7 +22,7 @@ header, form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
+    margin: 1%;
 }
 
 form input, form button {
@@ -31,6 +31,10 @@ form input, form button {
     border: none;
     background: white;
     /* border-radius: 2px; */
+}
+
+form input {
+    min-width: 420px;
 }
 
 form button {
@@ -51,7 +55,7 @@ form button:hover {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 25%;
     list-style: none;
 }
 
