@@ -87,3 +87,7 @@ form button:hover {
 .trash-btn {
     background: red;
 }
+
+.fa-trash, .fa-check {
+    pointer-events: none;
+}
